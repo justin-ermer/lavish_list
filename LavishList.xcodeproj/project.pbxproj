@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF6462851410857FD8E3959 /* libPods-LavishListTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F309951C75186C10880EA6 /* libPods-LavishListTests.a */; };
+		93DE624C6D1E0D99BF874920 /* libPods-LavishList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EED4B64E37A7842EC71B55F2 /* libPods-LavishList.a */; };
+		A9458F211E8C3D17006FE347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9458F201E8C3D17006FE347 /* main.m */; };
+		A9458F241E8C3D17006FE347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9458F231E8C3D17006FE347 /* AppDelegate.m */; };
+		A9458F271E8C3D17006FE347 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9458F261E8C3D17006FE347 /* ViewController.m */; };
+		A9458F2A1E8C3D17006FE347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9458F281E8C3D17006FE347 /* Main.storyboard */; };
+		A9458F2C1E8C3D17006FE347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9458F2B1E8C3D17006FE347 /* Assets.xcassets */; };
+		A9458F3A1E8C3D17006FE347 /* LavishListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9458F391E8C3D17006FE347 /* LavishListTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9458F361E8C3D17006FE347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9458F141E8C3D17006FE347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9458F1B1E8C3D17006FE347;
+			remoteInfo = LavishList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3383928663FB17ACC807CFAC /* Pods-LavishListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LavishListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LavishListTests/Pods-LavishListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1F309951C75186C10880EA6 /* libPods-LavishListTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LavishListTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9458F1C1E8C3D17006FE347 /* LavishList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LavishList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9458F201E8C3D17006FE347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9458F221E8C3D17006FE347 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9458F231E8C3D17006FE347 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9458F251E8C3D17006FE347 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9458F261E8C3D17006FE347 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9458F291E8C3D17006FE347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9458F2B1E8C3D17006FE347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9458F301E8C3D17006FE347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9458F351E8C3D17006FE347 /* LavishListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LavishListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9458F391E8C3D17006FE347 /* LavishListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LavishListTests.m; sourceTree = "<group>"; };
+		A9458F3B1E8C3D17006FE347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABF24DE49EE2535DB088A95 /* Pods-LavishListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LavishListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LavishListTests/Pods-LavishListTests.release.xcconfig"; sourceTree = "<group>"; };
+		E20C5D4B2A8290E31BDA5AFD /* Pods-LavishList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LavishList.release.xcconfig"; path = "Pods/Target Support Files/Pods-LavishList/Pods-LavishList.release.xcconfig"; sourceTree = "<group>"; };
+		EED4B64E37A7842EC71B55F2 /* libPods-LavishList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LavishList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A1D75ED46239245ABAC6E4 /* Pods-LavishList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LavishList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LavishList/Pods-LavishList.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9458F191E8C3D17006FE347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DE624C6D1E0D99BF874920 /* libPods-LavishList.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9458F321E8C3D17006FE347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF6462851410857FD8E3959 /* libPods-LavishListTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		717508E45E0D1D9BCA2FCC9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EED4B64E37A7842EC71B55F2 /* libPods-LavishList.a */,
+				A1F309951C75186C10880EA6 /* libPods-LavishListTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B2B60E88C85D0B91EE6C93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1D75ED46239245ABAC6E4 /* Pods-LavishList.debug.xcconfig */,
+				E20C5D4B2A8290E31BDA5AFD /* Pods-LavishList.release.xcconfig */,
+				3383928663FB17ACC807CFAC /* Pods-LavishListTests.debug.xcconfig */,
+				CABF24DE49EE2535DB088A95 /* Pods-LavishListTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9458F131E8C3D17006FE347 = {
+			isa = PBXGroup;
+			children = (
+				A9458F1E1E8C3D17006FE347 /* LavishList */,
+				A9458F381E8C3D17006FE347 /* LavishListTests */,
+				A9458F1D1E8C3D17006FE347 /* Products */,
+				A6B2B60E88C85D0B91EE6C93 /* Pods */,
+				717508E45E0D1D9BCA2FCC9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9458F1D1E8C3D17006FE347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9458F1C1E8C3D17006FE347 /* LavishList.app */,
+				A9458F351E8C3D17006FE347 /* LavishListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9458F1E1E8C3D17006FE347 /* LavishList */ = {
+			isa = PBXGroup;
+			children = (
+				A9458F221E8C3D17006FE347 /* AppDelegate.h */,
+				A9458F231E8C3D17006FE347 /* AppDelegate.m */,
+				A9458F251E8C3D17006FE347 /* ViewController.h */,
+				A9458F261E8C3D17006FE347 /* ViewController.m */,
+				A9458F281E8C3D17006FE347 /* Main.storyboard */,
+				A9458F2B1E8C3D17006FE347 /* Assets.xcassets */,
+				A9458F301E8C3D17006FE347 /* Info.plist */,
+				A9458F1F1E8C3D17006FE347 /* Supporting Files */,
+			);
+			path = LavishList;
+			sourceTree = "<group>";
+		};
+		A9458F1F1E8C3D17006FE347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9458F201E8C3D17006FE347 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9458F381E8C3D17006FE347 /* LavishListTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9458F391E8C3D17006FE347 /* LavishListTests.m */,
+				A9458F3B1E8C3D17006FE347 /* Info.plist */,
+			);
+			path = LavishListTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9458F1B1E8C3D17006FE347 /* LavishList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9458F3E1E8C3D17006FE347 /* Build configuration list for PBXNativeTarget "LavishList" */;
+			buildPhases = (
+				D16B6315292B6B95BD99F908 /* [CP] Check Pods Manifest.lock */,
+				A9458F181E8C3D17006FE347 /* Sources */,
+				A9458F191E8C3D17006FE347 /* Frameworks */,
+				A9458F1A1E8C3D17006FE347 /* Resources */,
+				4FB966E3658AB0E9209C266F /* [CP] Embed Pods Frameworks */,
+				FB126D0F180D28F165A6C3C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LavishList;
+			productName = LavishList;
+			productReference = A9458F1C1E8C3D17006FE347 /* LavishList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9458F341E8C3D17006FE347 /* LavishListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9458F411E8C3D17006FE347 /* Build configuration list for PBXNativeTarget "LavishListTests" */;
+			buildPhases = (
+				37047A3AE41CE31A0909CC78 /* [CP] Check Pods Manifest.lock */,
+				A9458F311E8C3D17006FE347 /* Sources */,
+				A9458F321E8C3D17006FE347 /* Frameworks */,
+				A9458F331E8C3D17006FE347 /* Resources */,
+				D9E8570436107DBA2647E8C2 /* [CP] Embed Pods Frameworks */,
+				F4AFD4F86CE6ABCE6CD5D599 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9458F371E8C3D17006FE347 /* PBXTargetDependency */,
+			);
+			name = LavishListTests;
+			productName = LavishListTests;
+			productReference = A9458F351E8C3D17006FE347 /* LavishListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9458F141E8C3D17006FE347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Justin Ermer";
+				TargetAttributes = {
+					A9458F1B1E8C3D17006FE347 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DUC5W8UNF5;
+						ProvisioningStyle = Automatic;
+					};
+					A9458F341E8C3D17006FE347 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DUC5W8UNF5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9458F1B1E8C3D17006FE347;
+					};
+				};
+			};
+			buildConfigurationList = A9458F171E8C3D17006FE347 /* Build configuration list for PBXProject "LavishList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9458F131E8C3D17006FE347;
+			productRefGroup = A9458F1D1E8C3D17006FE347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9458F1B1E8C3D17006FE347 /* LavishList */,
+				A9458F341E8C3D17006FE347 /* LavishListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9458F1A1E8C3D17006FE347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9458F2C1E8C3D17006FE347 /* Assets.xcassets in Resources */,
+				A9458F2A1E8C3D17006FE347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9458F331E8C3D17006FE347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37047A3AE41CE31A0909CC78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB966E3658AB0E9209C266F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LavishList/Pods-LavishList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16B6315292B6B95BD99F908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E8570436107DBA2647E8C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LavishListTests/Pods-LavishListTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4AFD4F86CE6ABCE6CD5D599 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LavishListTests/Pods-LavishListTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB126D0F180D28F165A6C3C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LavishList/Pods-LavishList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9458F181E8C3D17006FE347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9458F271E8C3D17006FE347 /* ViewController.m in Sources */,
+				A9458F241E8C3D17006FE347 /* AppDelegate.m in Sources */,
+				A9458F211E8C3D17006FE347 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9458F311E8C3D17006FE347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9458F3A1E8C3D17006FE347 /* LavishListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9458F371E8C3D17006FE347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9458F1B1E8C3D17006FE347 /* LavishList */;
+			targetProxy = A9458F361E8C3D17006FE347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9458F281E8C3D17006FE347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9458F291E8C3D17006FE347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9458F3C1E8C3D17006FE347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9458F3D1E8C3D17006FE347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9458F3F1E8C3D17006FE347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A1D75ED46239245ABAC6E4 /* Pods-LavishList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DUC5W8UNF5;
+				INFOPLIST_FILE = LavishList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jermer.LavishList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9458F401E8C3D17006FE347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20C5D4B2A8290E31BDA5AFD /* Pods-LavishList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DUC5W8UNF5;
+				INFOPLIST_FILE = LavishList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jermer.LavishList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9458F421E8C3D17006FE347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3383928663FB17ACC807CFAC /* Pods-LavishListTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DUC5W8UNF5;
+				INFOPLIST_FILE = LavishListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jermer.LavishListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LavishList.app/LavishList";
+			};
+			name = Debug;
+		};
+		A9458F431E8C3D17006FE347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABF24DE49EE2535DB088A95 /* Pods-LavishListTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DUC5W8UNF5;
+				INFOPLIST_FILE = LavishListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jermer.LavishListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LavishList.app/LavishList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9458F171E8C3D17006FE347 /* Build configuration list for PBXProject "LavishList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9458F3C1E8C3D17006FE347 /* Debug */,
+				A9458F3D1E8C3D17006FE347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9458F3E1E8C3D17006FE347 /* Build configuration list for PBXNativeTarget "LavishList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9458F3F1E8C3D17006FE347 /* Debug */,
+				A9458F401E8C3D17006FE347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9458F411E8C3D17006FE347 /* Build configuration list for PBXNativeTarget "LavishListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9458F421E8C3D17006FE347 /* Debug */,
+				A9458F431E8C3D17006FE347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9458F141E8C3D17006FE347 /* Project object */;
+}
